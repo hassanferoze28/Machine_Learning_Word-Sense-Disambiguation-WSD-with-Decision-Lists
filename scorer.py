@@ -2,7 +2,7 @@
 PROGRAMMING ASSIGNMENT 2: Word Sense Disambiguation (WSD) by Team 4: AIT-580 under Dr. Liao
 
 Introduction :
-Authors : Team 4 (Dipukumar Muraleedharakumar, Michael Thompson, Ashritha Chitimalla, Yen Shin Chang
+Authors : Muhammad Hassan
 Date : 06/24/2021
 
 WSD is a technique in NLP and ontology. This refers to identification of in which sense a word is
