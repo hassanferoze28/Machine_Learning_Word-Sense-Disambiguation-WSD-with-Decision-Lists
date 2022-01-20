@@ -1,0 +1,75 @@
+Script started on Tue Jun 29 13:00:05 2021
+[1m[7m%[27m[1m[0m                                                                                                                                                                               [0m[27m[24m[J(base) dipu@Renjinis-Air Test % [K[?2004hppython decision-list.py line-train.xml line-test.xml my-decision-list.txt > my-line-answers.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                               [0m[27m[24m[J(base) dipu@Renjinis-Air Test % [K[?2004hhhead -50 my-decision-list.txt[?2004l
+['-1_word_telephone', 6.149747119504682, 'phone']
+['-1_word_access', 4.954196310386876, 'phone']
+['-1_word_car', -4.247927513443585, 'product']
+['-1_word_end', 4.08746284125034, 'phone']
+['1_word_dead', 3.700439718141092, 'phone']
+['-1_word_computer', -3.700439718141092, 'product']
+['-1_word_came', 3.700439718141092, 'phone']
+['-1_word_ps2', -3.700439718141092, 'product']
+['-7_word_telephone', 3.700439718141092, 'phone']
+['-1_word_gab', 3.4594316186372978, 'phone']
+['2_word_computers', -3.4594316186372978, 'product']
+['-2_word_telephone', 3.4594316186372978, 'phone']
+['-8_word_company', -3.4594316186372978, 'product']
+['-1_word_direct', 3.1699250014423126, 'phone']
+['-2_word_came', 3.1699250014423126, 'phone']
+['-3_word_call', 3.1699250014423126, 'phone']
+['-5_word_may', 3.1699250014423126, 'phone']
+['-8_word_telephone', 3.1699250014423126, 'phone']
+['1_word_said', -3.169925001442312, 'product']
+['1_word_computers', -3.169925001442312, 'product']
+['1_word_personal', -3.169925001442312, 'product']
+['-1_word_product', -3.169925001442312, 'product']
+['-1_word_introduced', -3.169925001442312, 'product']
+['2_word_products', -3.169925001442312, 'product']
+['3_word_said', -3.169925001442312, 'product']
+['1_word_frozen', -2.8073549220576046, 'product']
+['-1_word_ibm', -2.8073549220576046, 'product']
+['-1_word_products', -2.8073549220576046, 'product']
+['-2_word_sell', -2.8073549220576046, 'product']
+['-2_word_ibms', -2.8073549220576046, 'product']
+['-2_word_introduced', -2.8073549220576046, 'product']
+['-2_word_incs', -2.8073549220576046, 'product']
+['-2_word_recently', -2.8073549220576046, 'product']
+['3_word_big', -2.8073549220576046, 'product']
+['-3_word_ibm', -2.8073549220576046, 'product']
+['-3_word_software', -2.8073549220576046, 'product']
+['4_word_business', -2.8073549220576046, 'product']
+['5_word_products', -2.8073549220576046, 'product']
+['-5_word_products', -2.8073549220576046, 'product']
+['-6_word_planned', -2.8073549220576046, 'product']
+['-6_word_sales', -2.8073549220576046, 'product']
+['-6_word_new', -2.8073549220576046, 'product']
+['-7_word_corp', -2.8073549220576046, 'product']
+['8_word_year', -2.8073549220576046, 'product']
+['-8_word_dealers', -2.8073549220576046, 'product']
+['1_word_growth', 2.807354922057604, 'phone']
+['1_word_increased', 2.807354922057604, 'phone']
+['1_word_grew', 2.807354922057604, 'phone']
+['1_word_went', 2.807354922057604, 'phone']
+['1_word_service', 2.807354922057604, 'phone']
+[1m[7m%[27m[1m[0m                                                                                                                                                                               [0m[27m[24m[J(base) dipu@Renjinis-Air Test % [K[?2004hhhead -10 my-line-answers.txt[?2004l
+<answer instance="line-n.w8_059:8174:" senseid="phone"/>
+<answer instance="line-n.w7_098:12684:" senseid="phone"/>
+<answer instance="line-n.w8_106:13309:" senseid="phone"/>
+<answer instance="line-n.w9_40:10187:" senseid="phone"/>
+<answer instance="line-n.w9_16:217:" senseid="product"/>
+<answer instance="line-n.w8_119:16927:" senseid="product"/>
+<answer instance="line-n.w8_008:13756:" senseid="product"/>
+<answer instance="line-n.w8_041:15186:" senseid="phone"/>
+<answer instance="line-n.art7} aphb 05601797:" senseid="phone"/>
+<answer instance="line-n.w8_119:2964:" senseid="product"/>
+[1m[7m%[27m[1m[0m                                                                                                                                                                               [0m[27m[24m[J(base) dipu@Renjinis-Air Test % [K[?2004hppython scorer.py my-line-answers.txt line-answers.txt[?2004l
+Baseline accuracy is 57.14285714285714%
+Accuracy after adding learned features is 85.71428571428571%
+Confusion matrix is
+Predicted  phone  product
+Actual                   
+phone         60        6
+product       12       48
+[1m[7m%[27m[1m[0m                                                                                                                                                                               [0m[27m[24m[J(base) dipu@Renjinis-Air Test % [K[?2004heexit[?2004l
+
+Script done on Tue Jun 29 13:00:57 2021
