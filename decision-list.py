@@ -1,9 +1,5 @@
 '''
-PROGRAMMING ASSIGNMENT 2: Word Sense Disambiguation (WSD) by Team 4: AIT-580 under Dr. Liao
-
-Introduction :
-Authors : Team 4 (Dipukumar Muraleedharakumar, Michael Thompson, Ashritha Chitimalla, Yen Shin Chang
-Date : 06/24/2021
+Author: Muhammad Hassan
 WSD is a technique in NLP and ontology. This refers to identification of in which sense a word is
 used in a sentence, when the word has several meanings.
 This python file, decision-list.py, act as a decision list classifier to perform WSD by identifying features from
